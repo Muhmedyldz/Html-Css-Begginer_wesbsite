@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:root{
+    --primary-color:white;
+    --secondary-color:#0ba2c0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://raw.githubusercontent.com/eminbasbayan/youtube-website/master/bg.jpg");
+    background-size: cover;    /*! arkaplan resmini sığdırıyor güzelce */
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 10rem;
+    border-bottom: 0.2rem solid rgba(255, 255,255,0.06);
+}
+/*& navbar start */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav .logo a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+header nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 4.8rem;
+}
+
+header nav .menu ul{
+    list-style: none;
+    display: flex;
+    column-gap: 3rem;
+}
+
+header nav .menu ul li a{
+    color:var(--primary-color);
+    text-decoration: none;
+    transition: color 0.25s ease;
+    font-size: 1.6rem;
+}
+
+header nav .menu ul li a:hover{
+    color: var(--secondary-color);
+}
+
+header nav .menu .menu-button{
+    color: var(--secondary-color);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 1.2rem 2.4rem;
+    border-radius: 5.6rem;
+    transition: all 0.25s ease;
+    font-size: 1.6rem;
+}
+
+header nav .menu .menu-button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/*& navbar start */
+
+/* ^ section start */
+.content{
+    color: var(--primary-color);
+    height: calc(100vh-10rem);
+    padding-top: 15rem;
+}
+
+.content h1{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.content p{
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 3.2rem;
+}
+
+.content .links{
+    display: flex;
+    justify-content: center;
+    margin-top: 4.8rem;
+    column-gap: 1.6rem;
+}
+
+.content .links a{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 1.8rem;
+    width: 28rem;
+    padding: 2rem;
+    border-radius: 5.6rem;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+.content .links a:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+/* ^ section start */
+
+/*! responsive start  */
+
+@media(max-width:57.6rem){
+    .container{
+        width: 100%;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    header nav .menu .menu-button{
+        display: none;
+    }
+
+    header nav .menu ul{
+        column-gap: 2rem;
+    }
+
+    .content{
+        padding-top:5rem;
+    }
+    
+    .content h1{
+        font-size: 3.6rem;
+    }
+
+    .content p{
+        font-size: 1.6rem;
+    }
+
+    .content .links{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1.6rem;
+    }
+
+    .content .links a{
+        padding: 1.4rem;
+        width: 90%;
+    }
+}
+/*! responsive end  */
