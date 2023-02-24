@@ -5,4 +5,5 @@
 # HTML CSS  Websites for begginer
 **Simple Websites built in HTML CSS only!**
   
-**Link:** https://calm-cajeta-a1ab7e.netlify.app/
+** Website Link:** https://calm-cajeta-a1ab7e.netlify.app/  
+** Website1 Link:** https://iridescent-bienenstitch-39a8d3.netlify.app/
