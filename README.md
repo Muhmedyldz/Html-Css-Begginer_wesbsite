@@ -1,6 +1,6 @@
-# Html-Css-Begginer_wesbsite1
+# Html-Css-Begginer_Wesbsite
 ![](websiteProject-Begginer/image/website-picture.png)
-# Html-Css-Begginer_wesbsite1
+# Html-Css-Begginer_Wesbsite1
 ![](websiteProject2-Begginer/images/website.png)
 # HTML CSS  Websites for begginer
 **Simple Websites built in HTML CSS only!**
